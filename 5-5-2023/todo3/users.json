@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "email": "admin@gmail.com",
+        "password": "itec2023",
+        "role": "1"
+    }
+]
