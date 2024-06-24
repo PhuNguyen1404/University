@@ -1,0 +1,30 @@
+/Users/nndkhoa/Projects/day01/day01/bin/Debug/net7.0/day01
+/Users/nndkhoa/Projects/day01/day01/bin/Debug/net7.0/day01.deps.json
+/Users/nndkhoa/Projects/day01/day01/bin/Debug/net7.0/day01.runtimeconfig.json
+/Users/nndkhoa/Projects/day01/day01/bin/Debug/net7.0/day01.dll
+/Users/nndkhoa/Projects/day01/day01/bin/Debug/net7.0/day01.pdb
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.csproj.AssemblyReference.cache
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.AssemblyInfoInputs.cache
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.AssemblyInfo.cs
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.csproj.CoreCompileInputs.cache
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.dll
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/refint/day01.dll
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.pdb
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/day01.genruntimeconfig.cache
+/Users/nndkhoa/Projects/day01/day01/obj/Debug/net7.0/ref/day01.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\bin\Debug\net7.0\day01.exe
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\bin\Debug\net7.0\day01.deps.json
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\bin\Debug\net7.0\day01.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\bin\Debug\net7.0\day01.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\bin\Debug\net7.0\day01.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\refint\day01.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\day01.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Project\CS207b - Advanced Software Engineering\day01\day01\obj\Debug\net7.0\ref\day01.dll
