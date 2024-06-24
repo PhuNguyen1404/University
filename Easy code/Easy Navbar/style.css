@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Tahoma, Serif;
+    color: #E4ECEE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #272A30;
+    font-size: x-large;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E4ECEE;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+
+    nav li {
+        padding: 0.5rem 0;
+    }
+}

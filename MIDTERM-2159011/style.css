@@ -1,0 +1,470 @@
+*, i {
+    font-family: Heebo, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    max-width: 100% !important;
+    margin: 0;
+    background-color: #F2F2F3;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+main {
+    position: relative;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-bottom: 10px 10px;
+    padding: 10px 10px;
+}
+
+nav ul li.nav-btn:hover {
+    border: 4px solid #0099FF;
+    border-style: hidden hidden solid hidden;
+    transition: all 0.2s;
+}
+
+nav ul li.nav-btn a:hover {
+    color: #0099FF !important;
+    transition: all 0.2s;
+}
+
+nav ul li.donate-btn a {
+    background-color: #0099FF;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+nav ul li.donate-btn a:hover {
+    font-weight: 400;
+    background-color: #bde0fe;
+    padding: 7px 9px;
+    border-radius: 10px;
+    color: #0099FF;
+    border: 3px solid #0099FF;
+}
+
+#logo {
+    display: flex;
+    margin: 15px;
+}
+
+
+/* BANNER */
+#banner {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    gap: 0;
+}
+
+.banner-quote {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.quote h1 {
+    font-size: 60px;
+}
+
+.quote h2 {
+    font-weight: 400;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 2%;
+}
+
+.watch-btn {
+    font-size: 15px;
+    background-color: #0099FF;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 150px;
+    font-weight: bold;
+}
+
+.watch-btn i {
+    font-weight: bold;
+}
+
+.watch-btn:hover {
+    background-color: #bde0fe;
+    padding: 2px ;
+    border-radius: 5px;
+    color: #0099FF;
+    border: 3px solid #0099FF;
+    cursor: pointer;
+}
+
+.download-btn {
+    font-size: 15px;
+    background: none;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    font-size: 15px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    width: 170px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* THREE BLOCKS */
+.three-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2%;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    padding: 0 20px 0 20px;
+
+}
+
+.card-50 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.card-25{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.card-50 img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-25 img {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+}
+
+.card-text h5, h2 {
+    color: #9A9A9D;
+    font-weight: 400;
+}
+
+.lastest-new {
+    display: flex;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    left: 20px;
+    margin-left: 100px;
+    margin-bottom: -50px;
+}
+.lastest-new h1:hover {
+    border: 3px solid black;
+    border-style: hidden hidden solid hidden;
+}
+/* FOUR BLOCKS */
+.four-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 50px 0 50px;
+}
+
+.card2-25 {
+    flex-basis: 25%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.card2-25 img {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.read-btn {
+    background: none;
+    border: none;
+    position: absolute;
+    color: #39AEFC;
+    bottom: 10px;
+    padding: 2px;
+    left: 10px;
+}
+
+.read-btn:hover {
+    background: none;
+    padding: 0 2px;
+    border: 2px solid #39AEFC;
+    border-style: hidden hidden solid hidden;
+    position: absolute;
+    color: #39AEFC;
+    transition: all 0.3;
+}
+
+.card2-text h2 { 
+    color: black;
+}
+
+.dev-update{
+    display: flex;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    left: 20px;
+    margin-left: 140px;
+    margin-bottom: -50px;
+}
+.dev-update h1:hover {
+    border: 3px solid black;
+    border-style: hidden hidden solid hidden;
+}
+
+/* OPEN SOURCE BANNER */
+
+.open-source-banner { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4%;
+}
+
+.op-1 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: #1C1C1C;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.op-1 img {
+    position: absolute;
+    right: 20px;
+}
+
+.op-1 h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+
+.op-1 p {
+    font-size: 20px;
+}
+
+.op-2 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: #F2F7FF;
+    border-radius: 15px;
+    padding: 0px 30px;
+
+}
+
+.op-2 h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+
+.op-2 p {
+    font-size: 20px;
+}
+
+
+/* STAFF BLOCKS */
+.staff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+    background-color: #f8f2ff;
+    
+}
+
+.staff-25-blocks
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.staff-25 {
+    width: 18%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+
+
+footer {
+    background-color: #292D32;
+    height: 100px;
+    color: white;
+    align-items:  center;
+    display: flex;
+}
+
+@media only screen and (max-width: 780px){
+    .three-blocks { 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card-50 {
+        flex-basis: 80%;
+        width: 80%;
+    }
+
+    .card-25 {
+        flex-basis: 80%;
+        width: 80%;
+    }
+
+    .four-blocks {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card2-25 {
+        flex-basis: 80%;
+        width:70%;
+    }
+
+    .staff {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .staff-25 {
+        flex-basis: 80%;
+        width:70%;
+    }
+
+    .staff-25-blocks {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

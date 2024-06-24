@@ -1,0 +1,782 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+body {
+    background-color: #000;
+    max-width: 100%;
+}
+
+/* LOGIN AND REDEEM */
+.login-redeem nav {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.login-redeem nav ul {
+    list-style: none;
+    flex-direction: row;
+}
+
+.login-redeem nav li {
+    padding-left: 1rem;
+}
+
+.login-redeem nav a {
+    color: #a0e080;
+    text-decoration: none;
+}
+
+.login-redeem nav a:hover {
+    color: #ffffef;
+}
+
+/* HEADER */
+header {
+    justify-content: space-between;
+    height: 85px;
+    background-color: #171615;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.icon-menu {
+    background-color: #78f14d;
+    display: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffef;
+}
+
+header nav a:hover {
+    color: #78f14d;
+}
+
+header nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    padding-left: 20px;
+}
+
+header label i{
+    display: none;
+    color: #fff;
+}
+
+#logo {
+    align-items: center;
+}
+
+button.get-mc {
+    height: 50px;
+    width: 200px;
+    background-color: #5db43e;
+    color: #ffffef;
+    border-radius: 10px;
+    margin-right: 40px;
+    transition: all 200ms ease-in-out;
+    font-size: large;
+}
+
+button.get-mc:hover {
+    background-color: #52a535;
+}
+
+
+/* BANNER */
+#banner {
+    height: 65vh;
+    position: relative;
+    background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    line-height: 1.5;
+    padding-left: 25%;
+}
+
+.banner-line {
+    position: absolute;
+    flex-direction: column;
+}
+
+.banner-line .text {
+    color: #ffffef;
+}
+
+.banner-line .text h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.banner-line .text p {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.banner-line button.btn {
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    margin-top: 30px;
+    color: #ffffef;
+    background-color: #52a535;
+    border: 4px solid #78f14d;
+    border-style: solid hidden hidden hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.banner-line button.btn:hover {
+    background-color: #262423;
+    border: 2px solid #ffffef;
+}
+
+
+/* MAIN */
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0px 5px 0 5px;
+    background-image: url(images/main-bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CONTAINER-1 */
+.container-1 {
+    height: 90vh;
+    width: 77%;
+    background-color: #eeeeee;
+    flex-direction: column;
+}
+
+.container-1 h1 {
+    letter-spacing: 4px;
+    font-size: xx-large;
+    font-weight: normal;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.five-cards {
+    justify-content: center;
+    gap: 5%;
+}
+
+.category a {
+    font-size: 15px;
+    color: #5db43e;
+    text-decoration: none;
+}
+
+.category a:hover {
+    text-decoration: underline 2px solid;
+}
+
+.five-cards .heading {
+    font-weight: lighter;
+}
+
+.five-cards .card {
+    flex-basis: 15%;
+    height: 450px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+}   
+
+.five-cards .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 70%;
+    border-radius: 6px 6px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.m-1 {
+    background-image: url(images/Minecraft.jpg);
+}
+
+.m-2 {
+    background-image: url(images/Minecraft-D.jpg);
+}
+
+.m-3 {
+    background-image: url(images/Minecraft-L.jpg);
+}
+
+.m-4 {
+    background-image: url(images/Minecraft-R.jpg);
+}
+
+.m-5 {
+    background-image: url(images/Minecraft-E.jpg);
+}
+
+.card-image:hover {
+    transform: scale(0.98);
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+}
+
+
+/* CONTAINER-2 */
+.container-2 {
+    margin: 50px auto;
+    width: 90%;
+    height: 400px;
+}
+
+.container-2 h1 {
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.news-slide {
+    height: 400px;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+}
+
+.news-slide:hover > :not(:hover){
+    opacity: 0.4;
+    transform: scale(0.9);
+    flex-wrap: wrap;
+}
+
+.slide {
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60%;
+    transition: 0.4s;
+    cursor: pointer;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider-1{
+    background-image: url(images/slider1.jpg);
+}
+
+.slider-2{
+    background-image: url(images/slider2.jpg);
+}
+
+.slider-3{
+    background-image: url(images/slider3.jpg);
+}
+
+.slider-4{
+    background-image: url(images/slider4.jpg);
+}
+
+.slide-content {
+    font-size: 30px;
+}
+
+.slide-content a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.slide-content a:hover {
+    color: #78f14d;
+}
+
+
+/* CONTAINER-3 */
+.container-3 {
+    width: 100%;
+    background-image: url(images/bg2.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+    gap: 10%;
+}
+
+.container-3 img {
+    width: 400px; 
+}
+
+.card-1, .card-2 {
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.card-2 {
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+
+
+.quote p {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.quote h1 {
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.quote a {
+    color: #5db43e;
+    text-decoration: none;
+}
+
+
+/* CONTAINER-4 */
+.container-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f5f4;
+    padding-top: 70px;
+}
+
+.community {
+    text-align: center;
+}
+
+.community p {
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.community h1 {
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.community a {
+    color: #5db43e;
+    text-decoration: none;
+}
+
+.four-card {
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+}
+
+.card-4 {
+    width: 250px;
+    height: 235px;
+    background-size: cover;
+    border-radius: 0.4em;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: #f8f5f4 0.2em solid;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-4 a{
+    text-align: center;
+    color: #eeeeee;
+    text-decoration: none;
+    background-color: #111220;
+    height: 90px;
+    flex-direction: column;
+    padding-top: 10px;
+    opacity: 0.5;
+    transition: all 0.4 ease-in-out;
+}
+
+.ct-1 {
+    background: #fff url(images/content-4.jpg) no-repeat center;
+}
+
+.ct-2 {
+    background: #fff url(images/content-3.jpg) no-repeat center;
+}
+
+.ct-3 {
+    background: #fff url(images/content-2.jpg) no-repeat center;
+}
+
+.ct-4 {
+    background: #fff url(images/content-1.jpg) no-repeat center;
+}
+
+.card-4:hover{
+    border: #78f14d 0.2em solid;
+    cursor: pointer;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+}
+
+.card-4:hover a{
+    opacity: 1 !important;
+    transition: all 0.4 ease-in-out;
+}
+
+.more {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.more p {
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: larger;
+}
+
+.more button.btn-more {
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    margin: 50px;
+    color: #ffffef;
+    background-color: #52a535;
+    border: 4px solid #78f14d;
+    border-style: solid hidden hidden hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.more button.btn-more:hover {
+    background-color: #262423;
+    border: 2px solid #ffffef;
+}
+
+
+/* FOLLOW */
+.follow {
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-text h3 {
+    color: #eeeeee;
+    letter-spacing: 2px;
+    margin: 30px 0 0 0;
+}
+
+.f-icon {
+    align-items: center;
+}
+
+.f-icon a {
+    color: #eeeeee;
+    margin: 40px;
+    padding: 0 6px 2px 6px;
+    font-size: 25px;
+    background-color: #313131;
+    border-radius: 150%;
+}
+
+a.yt:hover {
+    background-color: #ff0729;
+}
+
+a.fb:hover {
+    background-color: #2875ea;
+}
+
+a.int:hover {
+    background-color: #eb0060;
+}
+
+a.twr:hover {
+    background-color: #189ffe;
+}
+
+a.rdt:hover {
+    background-color: #ff4500;
+}
+
+/* FOOTER */
+footer {
+    background-color: #313131;
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffef;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+footer h2 {
+    color: #ffffef;
+}
+
+footer ul {
+    list-style: none;
+    gap: 2%;
+    width: 35%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a img {
+    width: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* CONTAINER-1 */
+    .container-1 { 
+        height: 78vh;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .container-1 h1 { 
+        margin: 30px 0;
+        font-size: x-large;
+    }
+
+    .five-cards { 
+        gap: 1%;
+    }
+
+    .five-cards .card {
+        flex-basis: 25%;
+    }
+    
+    .five-cards .card-image{
+        height: 55%;
+    }
+
+
+    /* CONTAINER-2 */
+
+    .slide-content {
+        font-size: 20px;
+    }
+
+    /* CONTAINER-3 */
+    .container-3 img {
+        margin-top: 20px;
+    }
+
+    .card-1, .card-2 {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .quote p {
+        font-size: larger;
+    }
+    
+    .quote h1 {
+        font-size: xx-large;
+    }
+
+    .quote a {
+        font-size: larger;
+    }
+
+    /* CONTAINER-4 */
+    .four-card { 
+        gap: 0.5%;
+    }
+}
+
+@media only screen and (max-width: 900px) { 
+    header { 
+        justify-content: center;
+    }
+    
+    header button {
+        display: none;
+    }
+
+    header nav {
+        position: absolute;
+        background-color: #000;
+        top: 80px;
+        left: 40px;
+        border-radius: 10px;
+        width: 130px;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    nav label {
+        text-align: left;
+    }
+
+    .icon-menu {
+        display: block;
+        position: absolute;
+        left: 30px;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+
+    .icon-menu:hover {
+        cursor: pointer;
+    }
+
+    .visable {
+        opacity: 1 !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    /* CONTAINER-1 */
+    .container-1 { 
+        height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .five-cards {
+        justify-content: center;
+        gap: 1%;
+        flex-wrap: wrap;
+    }
+    
+    .category a {
+        font-size: small;
+    }
+    
+    .five-cards .heading {
+        font-size: 12px;
+    }
+    
+    .five-cards .card {
+        flex-basis: 19%;
+        height: 330px;
+        background: white;
+        padding: .2em;
+        border-radius: 6px;
+        text-align: center;
+        flex-wrap: wrap;
+    }   
+    
+    .five-cards .card-image {
+        width: 100%;
+        height: 55%;
+    }
+
+    .container-1 h1 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .slide-content {
+        font-size: 30px;
+    }
+
+
+    /* CONTAINER-2 */
+    .container-2 {
+        margin: 30px auto;
+        width: 90%;
+        height: 700px;
+    }
+
+    .news-slide { 
+        flex-wrap: wrap;
+        height: 500px;
+        justify-content: center;
+    }
+
+
+    /* CONTAINER-3 */
+    .container-3 {
+        padding: 50px -40px;
+    }
+
+    .container-3 img {
+        margin-top: 20px;
+    }
+
+    .card-1, .card-2 {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote h1 {
+        font-size: x-large;
+    }
+
+    .quote p {
+        font-size: medium;
+    }
+
+    /* CONTAINER-4 */
+    .four-card {
+        flex-wrap: wrap;
+    }
+}
