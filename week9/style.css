@@ -1,0 +1,51 @@
+.silder {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.silder img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: inherit;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.silder ul {
+    z-index: 10;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5%;
+    margin: 0;
+    display: flex;
+}
+
+.controls li {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.controls li:hover {
+    opacity: 80%;
+    transform: scale(100%);
+}
+
+.active {
+    opacity: 100% !important;
+}
