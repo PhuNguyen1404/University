@@ -1,0 +1,35 @@
+.jumbotron .container{
+    background: #00000057;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.form-title {
+    color: #007bff;
+}
+
+.form-label {
+    color: #28a745;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.btn-submit {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-submit:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
