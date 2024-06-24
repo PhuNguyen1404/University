@@ -1,1 +1,1 @@
-# 🎓 University 🎓
+# CS300 - Artificial Intelligence
