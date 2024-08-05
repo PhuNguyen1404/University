@@ -1,1 +1,1 @@
-# 🎓 University 🎓
+# CS301 - Project Management
